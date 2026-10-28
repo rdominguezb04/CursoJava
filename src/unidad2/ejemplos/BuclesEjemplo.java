@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class BuclesEjemplo {
     /*Mostrar los 5 primeros numeros enteros
      hacerlo de tres formas utilizando: for, do while , while*/

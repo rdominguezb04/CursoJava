@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class EjemploSwitch {
     static void main() {
         /*Utilizando el switch quiero que muestre el nombre del dia de la semana o te has equivocado segun el numero introducido en una expresion*/

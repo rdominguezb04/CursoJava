@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class ParesEntre1_10_continue {
     static void main() {
         //ParesEntre1_10_sinContinue();

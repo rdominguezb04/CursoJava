@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class OperadoresLogicosBits {
     static void main() {
         int a=3;

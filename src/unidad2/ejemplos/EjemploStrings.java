@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class EjemploStrings {
 
     static void main() {

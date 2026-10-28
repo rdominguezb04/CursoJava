@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class p {
     static void main() {
         String nombre = "Reynaldo";

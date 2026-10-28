@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class EjemploBreak {
     static void main() {
         int num=1;

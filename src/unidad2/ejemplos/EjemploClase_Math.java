@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class EjemploClase_Math {
     static void main() {
         //ejemplo1();

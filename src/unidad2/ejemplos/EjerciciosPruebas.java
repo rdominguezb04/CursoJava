@@ -1,3 +1,5 @@
+package unidad2.ejemplos;
+
 public class EjerciciosPruebas {
     static void main() {
         //ejemplo();
