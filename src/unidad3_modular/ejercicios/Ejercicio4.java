@@ -10,6 +10,7 @@ public class Ejercicio4 {
         int n = sc.nextInt();
 
         tabla(n);
+
     }
 
     public static int multiplicar(int a, int b) {
