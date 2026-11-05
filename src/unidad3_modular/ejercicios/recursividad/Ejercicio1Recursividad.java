@@ -7,12 +7,27 @@ public class Ejercicio1Recursividad {
         int contador = 1;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Dame un número");
-        int numero = teclado.nextInt();
+        int n = teclado.nextInt();
 
-        int numeroDigitos = calcularDigitos(numero):
-        System.out.println("El resultado es:"+numeroDigitos);
+        int numeroDigitos = calcularDigitosRecursivo(n);
+        System.out.println("El resultado es: " + numeroDigitos);
     }
 
-    private static int calcularDigitos(int numero) {
+    private static int calcularDigitos(int n) {
+        int contador = 1;
+        while (n > 9) {
+            n = n / 10;
+            contador++;
+        }
+        return contador;
+    }
+
+    private static int calcularDigitosRecursivo(int n) {
+        if (n > 9) {
+            return 1 + calcularDigitosRecursivo(n / 10);
+        } else {
+            return 1;
+        }
+        //return contador;
     }
 }
